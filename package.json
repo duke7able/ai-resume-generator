@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@langchain/google-genai": "^0.0.12",
+    "@prisma/client": "^5.13.0",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0-rc.12",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "fs": "^0.0.1-security",
+    "jsonresume-theme-caffeine": "^1.2.3",
+    "langchain": "^0.1.36",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.7.0",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "path": "^0.12.7",
+    "puppeteer": "^19.11.1",
+    "resume-cli": "^3.1.2",
+    "sharp": "^0.33.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prisma": "^5.13.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
