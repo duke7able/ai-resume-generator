@@ -1,0 +1,6 @@
+.env
+node_modules
+
+# user files
+routes/generateResume/files/
+routes/generateResume/images/
